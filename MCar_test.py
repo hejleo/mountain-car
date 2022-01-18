@@ -62,7 +62,7 @@ def img_process(frm, mod_inp):
 
 
 # ----------------------------- Model Inference --------------------------------
-for _ in range(10000):
+for step in range(10000):
 
     env.render()
 
@@ -75,11 +75,14 @@ for _ in range(10000):
 
     if outputs[0][0].item()>outputs[0][1].item():
         car_action = 0
-        print("left")
+        print("pushing Left")
     else:
         car_action = 2
-        print("right")
+        print("pushing Right")
 
-    env.step(car_action) # 2 to move right, 0 to move left
+    out = env.step(car_action) # 2 to move right, 0 to move left
+    if out[2]==True:
+        print("Finished in {} step!".format(step))
+        break
 
 env.close()
