@@ -5,8 +5,10 @@ Hand gesture control of MountainCar-v0 from Open-AI (https://gym.openai.com/envs
 Execute from Ubuntu 18.04.
 
 Other requirements are:
+```
 Python3.6
 torch==1.5.1
+```
 
 To run an experiment run:
 
