@@ -1,6 +1,7 @@
 # mountain-car
 
-Hand gesture control of MountainCar-v0 from Open-AI. (https://gym.openai.com/envs/MountainCar-v0/)
+Hand gesture control of MountainCar-v0 from Open-AI (https://gym.openai.com/envs/MountainCar-v0/).
+
 To run an experiment run:
 
 ```
