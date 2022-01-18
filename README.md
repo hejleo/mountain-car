@@ -7,8 +7,7 @@ Hand gesture control of MountainCar-v0 from Open-AI (https://gym.openai.com/envs
 2. Python3.6
 3. torch==1.5.1
 
-To run an experiment run:
-
+**Run an experiment:**
 ```
 python3.6 MCar_test.py
 ```
