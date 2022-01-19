@@ -37,8 +37,9 @@ def img_process(frm, mod_inp):
     on the Imagenet pretraining.
         Args:
             frm (numpy.ndarray): frame acquired by the camera.
+            mod_inp: dummy model input.
         Returns:
-            model_inp: the input tensor to the model
+            input: the input tensor to the model
     """
 
     # Crop
